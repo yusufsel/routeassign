@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/routeassign
+    username: routeassign
+    password: routeassign
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: false
+        default_schema: routeassign
+    open-in-view: off
+
+jwt:
+  key: b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAlwAAAAdzc2gtcnNhAAAAAwEAAQAAAIEArQ18dwWkRQrwgXIaV212Wc2SrF6N8XYpRPSqpaXHZIuODsPhGXBIKwxcOeqftJaXj/N+Xq1a1S0+TIrOePbXhicvkDvgizHAGph5bbUhd5W0PvTg3v3iIpsaY0uCawzS4K0rVZzDSnSvARLRkqqAKZ9vdpWDiffaCcK6zFMymA8AAAIAUgJadFICWnQAAAAHc3NoLXJzYQAAAIEArQ18dwWkRQrwgXIaV212Wc2SrF6N8XYpRPSqpaXHZIuODsPhGXBIKwxcOeqftJaXj/N+Xq1a1S0+TIrOePbXhicvkDvgizHAGph5bbUhd5W0PvTg3v3iIpsaY0uCawzS4K0rVZzDSnSvARLRkqqAKZ9vdpWDiffaCcK6zFMymA8AAAADAQABAAAAgAiEBmDxBSFkpWspS0SMHWvT4ujaik+cifFbvN4D52j6ORZe6z/ON67un8c11YAUfQbXa5uLGlItNMideAWZ2AcsQqv3i09q98gytilYmDCAzJv6V2mYWC0O8Hj98eKWHA3bbsOvXrc68DHkdbB9DK+lSEJFApTiFiojv2FT2IGBAAAAQC7xLs68wtypgucdvfnvCz438NcVUMSR3+M9xy7L9egbYAdj0RIQMZOirySqWeN186J/Dzlwgucyyv1tKXNRyZAAAABBANlS6fMn8gywPsWQF+z7MXYPN/g8JTE3NcGV3hlDwV4zbFT8/yUtvVK5P+I1OecMowL7Aoxvqd32YzSzr9mpN08AAABBAMvZnXSs7rG1CPOqsybi87ptKVy90JnNqV4ehcxUsDESjtGVNGcKlsPcciesi1lizQYJpMDaklXRN24TaL2oY0EAAAAGbm9uYW1lAQIDBAU=

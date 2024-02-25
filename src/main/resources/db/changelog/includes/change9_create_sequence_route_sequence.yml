@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: change9_create_sequence_route_sequence
+      author: yusuf
+      changes:
+        - createSequence:
+            sequenceName: route_sequence
+            incrementBy: 1
+            cacheSize: 20
+

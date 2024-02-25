@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: change2_create_sequence_user_sequence
+      author: yusuf
+      changes:
+        - createSequence:
+            sequenceName: user_sequence
+            incrementBy: 1
+            cacheSize: 20
+

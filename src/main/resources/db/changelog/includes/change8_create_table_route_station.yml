@@ -1,0 +1,37 @@
+databaseChangeLog:
+  - changeSet:
+      id: change8_create_table_route_station
+      author: yusuf
+      changes:
+        - createTable:
+            tableName: route_station
+            columns:
+              - column:
+                  name: route_id
+                  type: number
+                  constraints:
+                    nullable: false
+              - column:
+                  name: station_id
+                  type: number
+                  constraints:
+                    nullable: false
+
+        - addUniqueConstraint:
+            tableName: route_station
+            columnNames: route_id,station_id
+            constraintName: route_station_unique_1
+
+        - addForeignKeyConstraint:
+            constraintName: route_station_fk_1
+            baseTableName: route_station
+            baseColumnNames: route_id
+            referencedTableName: routes
+            referencedColumnNames: id
+
+        - addForeignKeyConstraint:
+            constraintName: route_station_fk_2
+            baseTableName: route_station
+            baseColumnNames: station_id
+            referencedTableName: stations
+            referencedColumnNames: id
