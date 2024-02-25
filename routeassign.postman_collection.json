@@ -55,7 +55,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"username\":\"admin1\",\n    \"password\":\"admin\",\n    \"role\":\"ADMIN\"\n}",
+							"raw": "{\n    \"username\":\"user1\",\n    \"password\":\"user1\",\n    \"role\":\"USER\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -101,7 +101,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{server}}/api/v1/users/23",
+							"raw": "{{server}}/api/v1/users/2",
 							"host": [
 								"{{server}}"
 							],
@@ -109,7 +109,7 @@
 								"api",
 								"v1",
 								"users",
-								"23"
+								"2"
 							]
 						}
 					},
@@ -131,7 +131,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{server}}/api/v1/users/101",
+							"raw": "{{server}}/api/v1/users/2",
 							"host": [
 								"{{server}}"
 							],
@@ -139,7 +139,7 @@
 								"api",
 								"v1",
 								"users",
-								"101"
+								"2"
 							]
 						}
 					},
@@ -161,7 +161,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{server}}/api/v1/users/23",
+							"raw": "{{server}}/api/v1/users/3",
 							"host": [
 								"{{server}}"
 							],
@@ -169,7 +169,7 @@
 								"api",
 								"v1",
 								"users",
-								"23"
+								"3"
 							]
 						}
 					},
@@ -226,7 +226,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\":\"station3\"\n}",
+							"raw": "{\n    \"name\":\"station5\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -272,7 +272,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{server}}/api/v1/stations/2",
+							"raw": "{{server}}/api/v1/stations/1",
 							"host": [
 								"{{server}}"
 							],
@@ -280,7 +280,7 @@
 								"api",
 								"v1",
 								"stations",
-								"2"
+								"1"
 							]
 						}
 					},
@@ -302,7 +302,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{server}}/api/v1/stations/2",
+							"raw": "{{server}}/api/v1/stations/1",
 							"host": [
 								"{{server}}"
 							],
@@ -310,7 +310,7 @@
 								"api",
 								"v1",
 								"stations",
-								"2"
+								"1"
 							]
 						}
 					},
@@ -397,7 +397,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\":\"route222\",\n    \"stationIds\":[\n        1,2\n    ]\n}",
+							"raw": "{\n    \"name\":\"route222\",\n    \"stationIds\":[\n        4,5\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"

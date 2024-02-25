@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: change5_1_create_table_station
+      id: 20240224_4_create_table_station
       author: yusuf
       changes:
         - createTable:

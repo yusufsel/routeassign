@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: change7_create_table_route
+      id: 20240224_6_create_table_route
       author: yusuf
       changes:
         - createTable:

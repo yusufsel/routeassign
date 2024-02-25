@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: change10_create_table_and_sequence_vehicle
+      id: 20240224_9_create_table_and_sequence_vehicle
       author: yusuf
       changes:
         - createTable:

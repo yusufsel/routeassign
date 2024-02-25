@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: change6_add_admin_user
+      id: 20240224_5_add_admin_user
       author: yusuf
       changes:
         - insert:

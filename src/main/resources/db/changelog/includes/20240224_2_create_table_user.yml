@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: change3_1_create_table_user
+      id: 20240224_2_1_create_table_user
       author: yusuf
       changes:
         - createTable:
@@ -31,7 +31,7 @@ databaseChangeLog:
 
 
   - changeSet:
-      id: change3_2_create_index_to_username
+      id: 20240224_2_2_create_index_to_username
       author: yusuf
       changes:
         - createIndex:
